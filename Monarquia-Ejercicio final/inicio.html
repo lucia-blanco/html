@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="imagenes/favicon.ico">
+	<link rel="stylesheet" href="estilo.css">
+	<style type="text/css">
+		#main{
+	height: 650px;
+}
+#consorte{
+	position: relative;
+	float: right;
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-bottom: 70px;
+	height: 460px;
+	width: 400px;	
+	background-image: url("imagenes/consorte.jpg");
+}
+#rey{
+	position: relative;
+	float: left;
+	margin-top: 100px;
+	margin-left: 200px;
+	margin-bottom: 70px;
+	height: 460px;
+	width: 400px;
+	background-image: url("imagenes/rey.jpg");
+}
+#textcon{
+	float: right;
+	background-color: rgba(89,89,88,0.5);
+	color: #D2CBAE;
+	height: 460px;
+	width: 400px;
+	text-decoration: none;
+}
+#textrey{
+	float: left;
+	background-color: rgba(89,89,88,0.5);
+	color: #D2CBAE;
+	height: 460px;
+	width: 400px;
+	text-decoration: none;
+}
+.texto{
+	text-align: center;
+	padding-top: 210px;
+	font-family: 'Vollkorn SC';
+	font-size: 2em;
+}
+#textrey:hover,#textcon:hover{
+	background-color: rgba(89,89,88,0.75);
+}
+	</style>
+</head>
+<body>
+	<div id="header">
+		<span class="letras" id="la">La</span>
+		<span class="letras" id="monarquia">Monarquía</span>
+	</div>
+	<div id="nav">
+		<li>
+			<ul id="pag"><a href="inicio.html">Inicio</a></ul>
+			<ul class="enlace"><a href="inicio.html">Árbol genealógico</a></ul>
+			<ul class="enlace"><a href="inicio.html">Casas reales</a></ul>
+			<ul class="enlace"><a href="about.html">About</a></ul>
+		</li>
+	</div>
+	<div id="main">
+		<div id="consorte" class="poscon">
+			<a id="textcon" href="consortes.html">
+				<h2 class="texto">Consortes</h2>
+			</a>
+		</div>
+		<div id="rey" class="posrey">
+				<a id="textrey" href="reyes.html">
+					<h2 class="texto">Reyes</h2>
+				</a>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Lucía Blanco Salgado</p>
+		<p>Lenguaje de Marcas 2017</p>
+	</div>
+</body>
+</html>

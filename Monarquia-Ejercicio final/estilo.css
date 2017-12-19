@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn|Vollkorn+SC');
+body, html{
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+}
+#header {
+	background-image: url(imagenes/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 100%;
+}
+.letras{
+	font-family: 'Vollkorn SC';
+	color: #D2CBAE;
+	padding-top: 20px;
+}
+#la{
+	font-size: 25px;
+	position: absolute;
+	left: 0;
+	top: 7px;
+	padding-left: 15px;
+}
+#monarquia{
+	font-size: 50px;
+	position: absolute;
+	left: 50px;
+	top: 0;
+}
+ul, li{
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+/*li{
+	position: relative;
+	text-align: center;
+}*/
+#nav{
+	text-align: center;
+	width: 100%;
+	overflow-y: hidden;
+	height: 35px;
+	min-width: 70%;
+	position: absolute;
+	top: 113px;
+	border-bottom: 2px solid #909090;
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+	font-size: 17px;
+	vertical-align: baseline;
+}
+.enlace a, #pag a{
+	cursor: pointer;
+	position: relative;
+	padding-right: 35px;
+	font-family: 'Vollkorn SC';
+	text-decoration: none;
+	color: #909090;
+	display: inline-block;
+}
+.enlace a:hover{
+	color: #484848;
+}
+#pag a{
+	color: #484848;
+}
+#main{
+	height: 900px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+}
+#infobox{
+	position: relative;
+	margin-left: 200px;
+	margin-top: 50px;
+	width: 300px;
+	background-color: #909090;
+	padding: 25px;
+	float: left;
+	padding-top: 50px;
+	text-align: center;
+	font-family: 'Vollkorn';
+	height: 850px;
+}
+#infobox h3, h4{
+	font-family: 'Vollkorn SC';
+	color: #D2CBAE;
+	padding: 0px;
+}
+#infobox p{
+	font-family: 'Vollkorn SC';
+	color: #D2CBAE;
+	padding: 20px;
+	text-align: justify;
+}
+#info{
+	position: relative;
+	width: 500px;
+	height: 850px;
+	float: right;
+	padding: 50px;
+	margin-right: 100px;
+	text-align: justify;
+	text-indent: 2em;
+	font-family: 'Vollkorn';
+	font-size: 1.3em;
+}
+#info h1{
+	font-family: 'Vollkorn SC';
+	color: #484848;
+	font-size: 1.5em;
+}
+#footer{
+	clear: both;	
+	position: absolute;
+	bottom: auto;
+	height: 40px;
+	left: 40px;
+	font-size: 10px;
+	color: rgb(89,89,88);
+	margin: 10px;
+	text-align: justify;
+}
